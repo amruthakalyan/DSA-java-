@@ -13,7 +13,7 @@ public class ReverseNumber {
         for(i=0;i<len;i++){
             System.out.print(a[i]);
         }
-       
+      
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
