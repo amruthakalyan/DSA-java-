@@ -1,2 +1,2 @@
 # DSA-java-
-This a repository contains all the Data Structures and Algorithms(dsa) coding programs.
+This is a repository contains all the Data Structures and Algorithms(dsa) coding programs.
