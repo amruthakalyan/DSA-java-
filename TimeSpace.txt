@@ -1,0 +1,9 @@
+Time Complexity: 
+It is a mathematical function that shows the relationship between how the Time grows when the Size increases.
+
+order: O(n) < O(logN) < O(N)
+
+--Always use the Worst Case time Complexity
+--always use the large scale data
+--always ignore all the constants
+--Ignore less dominating terms.
