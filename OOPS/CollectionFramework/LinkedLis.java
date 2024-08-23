@@ -37,14 +37,22 @@ public class LinkedLis {
     }
     void delete(int key){
         Node current = head;
-        while (current != null) {
-            if(current.val == key){
+        Node prev = null;
+        if(current != null && current.val == key){
                 head = current.next;
                 return;
             }
-            current = current.next;
+            while (current != null && current.val != key) {
+                prev = current;
+                current = current.next;
+            }
+    
+            if (current == null) 
+               return;
+
+            prev.next = current.next;
         }
-    }
+    
     public void display(){
         Node current = head;
         while(current !=null){
