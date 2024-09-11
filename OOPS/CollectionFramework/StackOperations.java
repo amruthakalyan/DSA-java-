@@ -1,4 +1,4 @@
-package OOPS.CollectionFramework;
+package CollectionFramework;
 
 import java.util.Stack;
 
